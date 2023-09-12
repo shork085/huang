@@ -14,7 +14,7 @@ body {
     top: 8%;
     left: 7%;
     /* background-color: aqua; */
-    background-image: url("/images/sprites.png");
+    background-image: url("../images/sprites.png");
     background-size: cover;
     background-position: -424px;
     animation:  pmove 3.5s steps(1);
@@ -50,7 +50,7 @@ body {
     position: absolute;
     bottom: 10%;
     left: 30%;
-    background-image: url("/images/bclose.png");
+    background-image: url("../images/bclose.png");
     background-repeat: no-repeat;
     background-size: 90%;
     background-position: center;
@@ -60,7 +60,7 @@ body {
 
 #box1:hover {
     cursor: pointer;
-    background-image: url("/images/bopen.png");
+    background-image: url("../images/bopen.png");
     background-size: 100%;
 }
 
@@ -70,7 +70,7 @@ body {
     position: absolute;
     bottom: 10%;
     left: 60%;
-    background-image: url("/images/bclose.png");
+    background-image: url("../images/bclose.png");
     background-repeat: no-repeat;
     background-size: 90%;
     background-position: center;
@@ -80,7 +80,7 @@ body {
 
 #box2:hover {
     cursor: pointer;
-    background-image: url("/images/bopen.png");
+    background-image: url("../images/bopen.png");
     background-size: 100%;
 }
 
